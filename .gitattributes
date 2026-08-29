@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+*.m   text diff=matlab
+*.py  text diff=python
+*.md  text
+
+*.png binary
+*.jpg binary
+*.pdf binary
+*.mat binary
+*.docx binary
+*.xlsx binary

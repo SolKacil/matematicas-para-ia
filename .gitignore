@@ -1,0 +1,40 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# ---------- MATLAB / Octave ----------
+*.asv
+*.m~
+*.autosave
+*.mex*
+*.slxc
+slprj/
+sccprj/
+codegen/
+octave-workspace
+
+# ---------- Salidas generadas ----------
+salidas/
+figuras/*.png
+figuras/*.pdf
+*.mat
+!datos/*.mat
+
+# ---------- Windows / OneDrive / Office ----------
+Thumbs.db
+desktop.ini
+ehthumbs.db
+~$*
+*.tmp
+
+# ---------- Editores ----------
+.vscode/
+.idea/
+*.code-workspace
