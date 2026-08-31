@@ -26,6 +26,11 @@ Los módulos están pensados para seguirse en orden, pero cada script funciona p
 ### 1 · Álgebra lineal y geometría diferencial
 Vectores, matrices, normas, producto punto, determinantes, valores y vectores propios,
 descomposiciones y transformaciones. Es el lenguaje en el que se escriben los datos y los pesos de una red.
+
+| Notebook | Abrir sin instalar nada |
+|---|---|
+| [01 · Operaciones con vectores y matrices](python/01-algebra-lineal/01_operaciones_vectores.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/python/01-algebra-lineal/01_operaciones_vectores.ipynb) |
+
 📁 [`python/01-algebra-lineal`](python/01-algebra-lineal) · [`matlab/01-algebra-lineal`](matlab/01-algebra-lineal)
 
 ### 2 · Cálculo multivariable y optimización
@@ -45,7 +50,13 @@ Indispensable para trabajar señales, audio, imágenes y series de tiempo.
 
 ## Empezar
 
-### Python
+### Sin instalar nada: Google Colab
+
+Cada notebook lleva arriba un botón **Open in Colab**. Le das clic y el material se abre y se
+**ejecuta en tu navegador**, gratis, sin instalar Python ni nada. Es la forma más rápida de
+empezar y la recomendada si estás aprendiendo.
+
+### En tu computadora: Python
 
 ```bash
 git clone https://github.com/SolKacil/matematicas-para-ia.git
@@ -59,7 +70,7 @@ pip install -r requirements.txt
 python python/01-algebra-lineal/01_operaciones_vectores.py
 ```
 
-### MATLAB o GNU Octave
+### En tu computadora: MATLAB o GNU Octave
 
 Los scripts `.m` están escritos para correr igual en MATLAB y en [GNU Octave](https://octave.org),
 que es libre y gratuito, por si no tienes licencia de MATLAB.
@@ -80,7 +91,7 @@ ej01_operaciones_vectores
 ## Estructura
 
 ```
-python/     scripts .py y notebooks, una carpeta por módulo
+python/     notebooks .ipynb (con teoría) y scripts .py, una carpeta por módulo
 matlab/     scripts .m compatibles con Octave, una carpeta por módulo
 datos/      conjuntos de datos que comparten los ejercicios
 assets/     imágenes y material de apoyo
@@ -88,7 +99,9 @@ assets/     imágenes y material de apoyo
 
 ## Convenciones
 
-- Python: `NN_tema_descriptivo.py`, con `NN` consecutivo dentro del módulo (`01_`, `02_`, …).
+- Python: `NN_tema_descriptivo.py` y `NN_tema_descriptivo.ipynb`, con `NN` consecutivo dentro
+  del módulo (`01_`, `02_`, …). El notebook explica el tema; el script es el mismo contenido
+  reducido a lo ejecutable.
 - MATLAB/Octave: `ejNN_tema_descriptivo.m` — el prefijo `ej` es obligatorio porque MATLAB no admite
   nombres de script que empiecen con dígito.
 - Cada ejercicio abre con un encabezado: título, módulo y objetivo.

@@ -22,6 +22,25 @@ entienda mejor un concepto es bienvenida: no hace falta ser experto.
    qué pasó y pueda compararlo con lo que esperaba.
 6. Prefiere lo explícito a lo ingenioso: aquí el código se lee más veces de las que se ejecuta.
 
+## Notebooks
+
+[`python/01-algebra-lineal/01_operaciones_vectores.ipynb`](python/01-algebra-lineal/01_operaciones_vectores.ipynb)
+es la plantilla: cópialo y sustituye el contenido. La estructura que sigue todo notebook es:
+
+1. **Insignia de Colab** en la primera línea, apuntando a la ruta del propio notebook:
+   `https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/<ruta>.ipynb`
+2. **Portada**: título, módulo, por qué el tema importa en IA, qué vas a poder hacer al
+   terminar, qué se da por sabido y cómo usar el notebook.
+3. **Celda de imports** al inicio, con solo lo que esté en `requirements.txt`.
+4. **Secciones numeradas**: explicación en markdown (con LaTeX entre `$…$`) y luego el código.
+   Donde se pueda, implementa la operación a mano *y* con la biblioteca, y compara las dos.
+5. **Una gráfica** cuando ayude a ver la idea, no de adorno.
+6. **Tu turno**: ejercicios sin respuestas, con una celda vacía para resolverlos.
+7. **Resumen** en tabla y enlaces a la versión MATLAB y al README.
+
+Antes de enviarlo: *Restart & Run All*, y guarda con las salidas incluidas, para que quien lo
+lea en GitHub vea los resultados sin ejecutar nada.
+
 ## Flujo
 
 1. Haz un fork y crea una rama descriptiva (`ejercicio-svd`, `fix-angulo-vectores`).
