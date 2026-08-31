@@ -1,7 +1,11 @@
 % ej01_operaciones_vectores
-% Unidad I: Algebra Lineal y Geometria Diferencial
-% Objetivo: repasar producto punto, norma, angulo entre vectores y producto matricial.
-% Fecha: 2026-09
+% Modulo 1: Algebra lineal y geometria diferencial
+% Objetivo: producto punto, norma, angulo entre vectores, producto matricial,
+% determinante y valores/vectores propios: el vocabulario minimo con el que se
+% describen los datos y los pesos de un modelo.
+%
+% Ejecuta el script, cambia los valores de u, v y A, y vuelve a ejecutarlo.
+% Compatible con MATLAB y GNU Octave.
 
 clear; clc;
 
