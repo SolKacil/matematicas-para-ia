@@ -30,6 +30,7 @@ descomposiciones y transformaciones. Es el lenguaje en el que se escriben los da
 | Notebook | Abrir sin instalar nada |
 |---|---|
 | [01 · Operaciones con vectores y matrices](python/01-algebra-lineal/01_operaciones_vectores.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/python/01-algebra-lineal/01_operaciones_vectores.ipynb) |
+| [02 · Suma, producto por escalar y multiplicación](python/01-algebra-lineal/02_suma_escalar_y_producto.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/python/01-algebra-lineal/02_suma_escalar_y_producto.ipynb) |
 
 📁 [`python/01-algebra-lineal`](python/01-algebra-lineal) · [`matlab/01-algebra-lineal`](matlab/01-algebra-lineal)
 
