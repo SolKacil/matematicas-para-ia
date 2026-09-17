@@ -24,13 +24,14 @@ Lo demás se construye desde cero en los propios scripts.
 Los módulos están pensados para seguirse en orden, pero cada script funciona por separado.
 
 ### 1 · Álgebra lineal y geometría diferencial
-Vectores, matrices, normas, producto punto, determinantes, valores y vectores propios,
-descomposiciones y transformaciones. Es el lenguaje en el que se escriben los datos y los pesos de una red.
+Vectores, matrices, normas, producto punto, sistemas de ecuaciones, espacio nulo, rango,
+determinantes, valores y vectores propios, descomposiciones y transformaciones. Es el lenguaje en el
+que se escriben los datos y los pesos de una red.
 
 | Notebook | Abrir sin instalar nada |
 |---|---|
 | [01 · Operaciones con vectores y matrices](python/01-algebra-lineal/01_operaciones_vectores.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/python/01-algebra-lineal/01_operaciones_vectores.ipynb) |
-| [02 · Suma, producto por escalar y multiplicación](python/01-algebra-lineal/02_suma_escalar_y_producto.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/python/01-algebra-lineal/02_suma_escalar_y_producto.ipynb) |
+| [02 · Sistemas lineales: solución general, espacio nulo y rango](python/01-algebra-lineal/02_sistemas_lineales_y_espacio_nulo.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/python/01-algebra-lineal/02_sistemas_lineales_y_espacio_nulo.ipynb) |
 
 📁 [`python/01-algebra-lineal`](python/01-algebra-lineal)
 
