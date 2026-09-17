@@ -7,7 +7,6 @@ entienda mejor un concepto es bienvenida: no hace falta ser experto.
 
 - **Correcciones**: errores de matemáticas, de código o de redacción.
 - **Ejercicios nuevos** dentro de los cuatro módulos existentes.
-- **La versión que falta**: muchos temas están solo en Python o solo en MATLAB.
 - **Explicaciones**: comentarios que aclaren *por qué* se hace un paso, no solo *qué* hace.
 - **Datos de ejemplo** pequeños y de licencia libre, en `datos/`.
 
@@ -16,8 +15,8 @@ entienda mejor un concepto es bienvenida: no hace falta ser experto.
 1. Un archivo por concepto. Que corra solo, sin depender de otros scripts.
 2. Encabezado obligatorio: título, módulo y objetivo en una línea.
 3. Solo dependencias que ya estén en `requirements.txt`; si necesitas otra, dilo en el pull request.
-4. Nombres de archivo sin acentos ni espacios (`03_descenso_gradiente.py`,
-   `ej03_descenso_gradiente.m`). Los acentos van en el contenido.
+4. Nombres de archivo sin acentos ni espacios (`03_descenso_gradiente.py`).
+   Los acentos van en el contenido.
 5. Que imprima resultados legibles. El objetivo es que quien lo ejecute vea de inmediato
    qué pasó y pueda compararlo con lo que esperaba.
 6. Prefiere lo explícito a lo ingenioso: aquí el código se lee más veces de las que se ejecuta.
@@ -36,7 +35,7 @@ es la plantilla: cópialo y sustituye el contenido. La estructura que sigue todo
    Donde se pueda, implementa la operación a mano *y* con la biblioteca, y compara las dos.
 5. **Una gráfica** cuando ayude a ver la idea, no de adorno.
 6. **Tu turno**: ejercicios sin respuestas, con una celda vacía para resolverlos.
-7. **Resumen** en tabla y enlaces a la versión MATLAB y al README.
+7. **Resumen** en tabla y enlace al README.
 
 Antes de enviarlo: *Restart & Run All*, y guarda con las salidas incluidas, para que quien lo
 lea en GitHub vea los resultados sin ejecutar nada.
