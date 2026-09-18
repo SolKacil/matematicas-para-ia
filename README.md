@@ -3,7 +3,7 @@
 Las matemáticas que hay debajo de la IA, explicadas con código que puedes ejecutar.
 Cada tema viene resuelto en **Python**, con notebooks y scripts cortos, comentados y autocontenidos.
 
-Material abierto y gratuito. No necesitas estar inscrito en ningún lado: clona el repositorio y empieza.
+Material abierto y gratuito.
 
 ![Matemáticas para IA](assets/BaseMatematica.png)
 
@@ -13,7 +13,7 @@ Material abierto y gratuito. No necesitas estar inscrito en ningún lado: clona 
 
 - Quien aprende IA por su cuenta y se topa con la pared del álgebra lineal o el cálculo.
 - Quien programa modelos pero quiere entender qué pasa dentro del `fit()`.
-- Quien estudia una ingeniería o una carrera técnica y busca ejemplos que sí corran.
+- Quien estudia una ingeniería o posgrado y quiera entender el fundamento teórico.
 - Quien enseña estos temas y quiere ejercicios listos para adaptar (la licencia lo permite).
 
 **Lo que se da por sabido:** álgebra de bachillerato y nociones básicas de programación.
