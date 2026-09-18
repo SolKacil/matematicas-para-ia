@@ -30,8 +30,11 @@ que se escriben los datos y los pesos de una red.
 
 | Notebook | Abrir sin instalar nada |
 |---|---|
-| [01 · Operaciones con vectores y matrices](python/01-algebra-lineal/01_operaciones_vectores.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/python/01-algebra-lineal/01_operaciones_vectores.ipynb) |
+| [00 · Propiedades de matrices: suma, multiplicación, identidad y transpuesta](python/01-algebra-lineal/00_propiedades_matrices.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/python/01-algebra-lineal/00_propiedades_matrices.ipynb) |
+| [01 · Vectores y espacios vectoriales](python/01-algebra-lineal/01_vectores_y_espacios_vectoriales.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/python/01-algebra-lineal/01_vectores_y_espacios_vectoriales.ipynb) |
 | [02 · Sistemas lineales: solución general, espacio nulo y rango](python/01-algebra-lineal/02_sistemas_lineales_y_espacio_nulo.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/python/01-algebra-lineal/02_sistemas_lineales_y_espacio_nulo.ipynb) |
+| [03 · Determinante, norma, producto punto y ortogonalidad](python/01-algebra-lineal/03_determinante_norma_producto_punto.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/python/01-algebra-lineal/03_determinante_norma_producto_punto.ipynb) |
+| [04 · Autovalores y autovectores](python/01-algebra-lineal/04_autovalores_y_autovectores.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/python/01-algebra-lineal/04_autovalores_y_autovectores.ipynb) |
 
 📁 [`python/01-algebra-lineal`](python/01-algebra-lineal)
 
@@ -69,7 +72,7 @@ python -m venv .venv
 source .venv/bin/activate       # Linux / macOS
 
 pip install -r requirements.txt
-python python/01-algebra-lineal/01_operaciones_vectores.py
+python python/01-algebra-lineal/00_propiedades_matrices.py
 ```
 
 ## Cómo estudiar con este repositorio

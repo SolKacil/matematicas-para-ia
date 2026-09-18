@@ -23,7 +23,7 @@ entienda mejor un concepto es bienvenida: no hace falta ser experto.
 
 ## Notebooks
 
-[`python/01-algebra-lineal/01_operaciones_vectores.ipynb`](python/01-algebra-lineal/01_operaciones_vectores.ipynb)
+[`python/01-algebra-lineal/00_propiedades_matrices.ipynb`](python/01-algebra-lineal/00_propiedades_matrices.ipynb)
 es la plantilla: cópialo y sustituye el contenido. La estructura que sigue todo notebook es:
 
 1. **Insignia de Colab** en la primera línea, apuntando a la ruta del propio notebook:
@@ -35,10 +35,20 @@ es la plantilla: cópialo y sustituye el contenido. La estructura que sigue todo
    Donde se pueda, implementa la operación a mano *y* con la biblioteca, y compara las dos.
 5. **Una gráfica** cuando ayude a ver la idea, no de adorno.
 6. **Tu turno**: ejercicios sin respuestas, con una celda vacía para resolverlos.
-7. **Resumen** en tabla y enlace al README.
+7. **Resumen** en tabla, y enlaces al documento de la sesión, al notebook
+   siguiente y al README.
 
 Antes de enviarlo: *Restart & Run All*, y guarda con las salidas incluidas, para que quien lo
 lea en GitHub vea los resultados sin ejecutar nada.
+
+## Notebooks que acompañan a un documento del curso
+
+Los notebooks de `python/01-algebra-lineal` desarrollan, uno a uno, los documentos
+`Matematicas_para_IA_NN.pdf` de la Unidad I. Si aportas uno nuevo de esa serie, conserva la
+correspondencia: el número del notebook es el del documento, las secciones siguen su orden y
+la sección **Tu turno** recoge sus ejercicios propuestos. El registro es formal, sin
+analogías, y cada bloque de aplicación en IA va rotulado como *Lectura en aprendizaje
+automático*.
 
 ## Flujo
 
