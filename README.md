@@ -36,6 +36,10 @@ que se escriben los datos y los pesos de una red.
 | [03 · Determinante, norma, producto punto y ortogonalidad](python/01-algebra-lineal/03_determinante_norma_producto_punto.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/python/01-algebra-lineal/03_determinante_norma_producto_punto.ipynb) |
 | [04 · Autovalores y autovectores](python/01-algebra-lineal/04_autovalores_y_autovectores.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SolKacil/matematicas-para-ia/blob/main/python/01-algebra-lineal/04_autovalores_y_autovectores.ipynb) |
 
+Cada tema trae además un PDF con la teoría — definiciones, demostraciones y ejercicios resueltos —
+en la misma carpeta del notebook y enlazado desde él: [`Matematicas_para_IA_00.pdf`](python/01-algebra-lineal/Matematicas_para_IA_00.pdf)
+a [`Matematicas_para_IA_04.pdf`](python/01-algebra-lineal/Matematicas_para_IA_04.pdf).
+
 📁 [`python/01-algebra-lineal`](python/01-algebra-lineal)
 
 ### 2 · Cálculo multivariable y optimización
@@ -52,6 +56,29 @@ La base de las redes neuronales de grafos, los sistemas de recomendación y el a
 Error numérico, interpolación, integración, raíces, series y transformada de Fourier (DFT/FFT).
 Indispensable para trabajar señales, audio, imágenes y series de tiempo.
 📁 [`python/04-analisis-numerico-y-fourier`](python/04-analisis-numerico-y-fourier)
+
+## Material de lectura
+
+Dos cosas distintas, en dos lugares distintos.
+
+**La teoría de cada unidad está junto a su código**, en `python/`: un PDF de notas de estudio por
+tema, en la misma carpeta que el notebook y enlazado desde él. Son las definiciones, las
+demostraciones y los ejercicios resueltos que el notebook da por vistos. De la unidad I están
+publicados los cinco: `python/01-algebra-lineal/Matematicas_para_IA_00.pdf` … `_04.pdf`.
+
+**Las fuentes externas están en [`Recursos/`](Recursos):**
+
+- 📁 [`Recursos/Libros`](Recursos/Libros) — los seis libros de referencia del curso. Los PDF no se
+  versionan (derechos de autor y más de 200 MB); el
+  [README de la carpeta](Recursos/Libros/README.md) lista cada libro, dice dónde conseguirlo
+  y en qué módulo se usa. Tres son de descarga libre y oficial: *Mathematics for Machine
+  Learning*, *Deep Learning* de Goodfellow y el *Pattern Recognition and Machine Learning* de
+  Bishop.
+- 📁 [`Recursos/Papers IA`](Recursos/Papers%20IA) — tres artículos fundacionales, para leer cuando
+  el álgebra lineal ya se sostenga sola y quieras ver para qué sirve:
+  - *Attention Is All You Need* (Vaswani et al., 2017) — el Transformer · [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)
+  - *An Image Is Worth 16x16 Words* (Dosovitskiy et al., 2020) — el Transformer aplicado a visión · [arXiv:2010.11929](https://arxiv.org/abs/2010.11929)
+  - *Long Short-Term Memory* (Hochreiter y Schmidhuber, 1997) — las redes recurrentes con memoria · [JKU Linz](https://www.bioinf.jku.at/publications/older/2604.pdf)
 
 ## Empezar
 
@@ -86,7 +113,10 @@ python python/01-algebra-lineal/00_propiedades_matrices.py
 ## Estructura
 
 ```
-python/     notebooks .ipynb (con teoría) y scripts .py, una carpeta por módulo
+python/     notebooks .ipynb, scripts .py y los PDF de teoría, una carpeta por módulo
+Recursos/   material de lectura externo
+  Libros/     libros de referencia (solo el README con los enlaces; los PDF no se versionan)
+  Papers IA/  artículos fundacionales de IA
 datos/      conjuntos de datos que comparten los ejercicios
 assets/     imágenes y material de apoyo
 ```
@@ -99,6 +129,7 @@ assets/     imágenes y material de apoyo
 - Cada ejercicio abre con un encabezado: título, módulo y objetivo.
 - Los datos de entrada van en `datos/`; las salidas generadas (figuras) no se versionan.
 - Sin acentos ni espacios en los nombres de archivo y carpeta; los acentos van en el contenido.
+  Excepción: el material externo de `Recursos/` conserva el nombre con el que se publicó.
 
 ## Contribuir
 

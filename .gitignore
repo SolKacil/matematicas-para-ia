@@ -25,3 +25,8 @@ ehthumbs.db
 .vscode/
 .idea/
 *.code-workspace
+
+# ---------- Recursos ----------
+# Los libros de texto tienen derechos de autor y pesan mas de 200 MB juntos:
+# se quedan en local. Recursos/Libros/README.md dice donde conseguir cada uno.
+Recursos/Libros/*.pdf
