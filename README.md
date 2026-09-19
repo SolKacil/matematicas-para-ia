@@ -74,7 +74,7 @@ publicados los cinco: `python/01-algebra-lineal/Matematicas_para_IA_00.pdf` … 
   y en qué módulo se usa. Tres son de descarga libre y oficial: *Mathematics for Machine
   Learning*, *Deep Learning* de Goodfellow y el *Pattern Recognition and Machine Learning* de
   Bishop.
-- 📁 [`Recursos/Papers IA`](Recursos/Papers%20IA) — tres artículos fundacionales, para leer cuando
+- 📁 [`Recursos/papers-ia`](Recursos/papers-ia) — tres artículos fundacionales, para leer cuando
   el álgebra lineal ya se sostenga sola y quieras ver para qué sirve:
   - *Attention Is All You Need* (Vaswani et al., 2017) — el Transformer · [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)
   - *An Image Is Worth 16x16 Words* (Dosovitskiy et al., 2020) — el Transformer aplicado a visión · [arXiv:2010.11929](https://arxiv.org/abs/2010.11929)
@@ -116,7 +116,7 @@ python python/01-algebra-lineal/00_propiedades_matrices.py
 python/     notebooks .ipynb, scripts .py y los PDF de teoría, una carpeta por módulo
 Recursos/   material de lectura externo
   Libros/     libros de referencia (solo el README con los enlaces; los PDF no se versionan)
-  Papers IA/  artículos fundacionales de IA
+  papers-ia/  artículos fundacionales de IA
 datos/      conjuntos de datos que comparten los ejercicios
 assets/     imágenes y material de apoyo
 ```
@@ -129,7 +129,7 @@ assets/     imágenes y material de apoyo
 - Cada ejercicio abre con un encabezado: título, módulo y objetivo.
 - Los datos de entrada van en `datos/`; las salidas generadas (figuras) no se versionan.
 - Sin acentos ni espacios en los nombres de archivo y carpeta; los acentos van en el contenido.
-  Excepción: el material externo de `Recursos/` conserva el nombre con el que se publicó.
+  Excepción: los archivos de `Recursos/` conservan el nombre con el que se publicaron.
 
 ## Contribuir
 
